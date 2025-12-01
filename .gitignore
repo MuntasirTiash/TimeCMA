@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Logs, results, embeddings, local data
+logs/
+Results/
+Embeddings/
+timecma_data/
+all_datasets.zip
+forecasting.zip
+
+# Any other big/local artifacts
+*.tar
+*.tar.gz
+*.zip
+*.log

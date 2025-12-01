@@ -1,7 +1,10 @@
 #!/bin/bash
-export PYTHONPATH=/path/to/project_root:$PYTHONPATH
+export PYTHONPATH=/largessd/home/muntasir/Desktop/TimeCMA:$PYTHONPATH
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
-export CUDA_VISIBLE_DEVICES=1
+export CUDA_VISIBLE_DEVICES=0
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate timecma 
 
 data_path="ETTh1"
 seq_len=96
